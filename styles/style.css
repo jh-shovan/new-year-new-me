@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    font-family: Work Sans;
+}
+
+/* bannar style */
+.banner-img img {
+    max-width: 100%;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 65px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 25%;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.banner-title {
+    display: block;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 76px;
+}
+
+/* .banner-description{
+    display: block;
+}  */
+
+.banner-button {
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    color: #005FAC;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+/* content style */
+
+.content {
+    display: flex;
+    padding: 65px 35px;
+}
+
+.content-img {
+    margin-left: 80px;
+    margin-top: 130px;
+}
+
+.content-body {
+    margin-top: 370px;
+    margin-left: 50px;
+}
+
+.content-title {
+    Font-style: Bold;
+    Font-size: 40px;
+    Line-height: 47px;
+    margin-right: 160px;
+}
+
+.content-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 25px;
+}
+
+.content-list {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+/* plan and skill styles */
+
+.plan {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 200;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.plan-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan-list div {
+    text-align: center;
+}
+
+.skill {
+    font-style: Bold;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.skill-action{
+    font-size: 25px;
+    color: #737272;
+    padding: 200;
+}
+
+/* gradiant img style section */
+#gradient {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 300px;
+    width: 1140px;
+    margin: 100px;
+}
+.gradient{
+    margin-left: 50px;
+}
+
+.gradient-title {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.gradient-button {
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    color: #005FAC;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+/* .gradient h1 button {
+    color: #FFFFFF;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+} */
+
+/* footer section design- left */
+footer {
+    background-color: #151414;
+}
+
+.ftr {
+    color: #F8F8F8;
+    display: flex;
+    margin-left: 80px;
+}
+
+.ftr-title {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.ftr-description {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.ftr-phone {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.ftr-picture {
+    margin-bottom: 80px;
+    align-content: space-between;
+}
+
+.ftr-picture img {
+    margin-right: 10px;
+}
+
+/* footer section design- right */
+
+.ftr-right {
+    margin: 50px 80px 220px 260px;
+}
+
+.ftr-subscribe {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.ftr-mail input {
+    height: 64px;
+    width: 325px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.ftr-button {
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+}
